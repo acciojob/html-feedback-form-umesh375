@@ -3,19 +3,20 @@
 <html>
 
 <head>
-	<link rel="stylesheet" href="styles.css">
+	<link rel="style" href="styles.css">
 </head>
 
 <body>
 	<from method="post">
 		<label for="name">Name</label>
-		<input type="text" id="name" min="3" maxlength="50" lable required>
-		<label for="portfolio">Portfolio</label>
-		<input type="url" id="Portfolio" lable required>
-		<label for="favcolor">Favorite Color</label>
-		<input type="color" id="favcolor" lable required>
-		<label for="likeness">Likeness</label>
-		<input type="range" id="likeness" min="1" max="100" lable required>
+		<input id="Name" type="text" minlength="3" maxlength="50" required>
+		<label for="portfolio">portfolio</label>
+		<input id="portfolio" type="url" required>
+		<label for="favorite color">favColor</label>
+		<input id="favcolor" type="color" required>
+		<label for="likeness">likeness</label>
+		<input id="likeness" type="range" min="1" max="100" required>
+		<button type="submit">submit</button>
 	</from>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
