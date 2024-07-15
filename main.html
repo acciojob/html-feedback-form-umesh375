@@ -7,15 +7,23 @@
 </head>
 
 <body>
-	<from method="post">
+	<from action="submit" method="post">
 		<label for="name">Name</label>
-		<input id="Name" type="text" minlength="3" maxlength="50" required>
-		<label for="portfolio">portfolio</label>
-		<input id="portfolio" type="url" required>
-		<label for="favorite color">favColor</label>
-		<input id="favcolor" type="color" required>
-		<label for="likeness">likeness</label>
-		<input id="likeness" type="range" min="1" max="100" required>
+		<input type="text" id="name" name="name" minlength="3" maxlength="50" required>
+		<br>
+		
+		<label for="Portfolio">Portfolio</label>
+		<input type="url" id="Portfolio" name="Portfolio" required>
+		<br>
+		
+		<label for="favColor">Favorite Color</label>
+		<input type="color" id="favcolor" name="favcolor" required>
+		<br>
+		
+		<label for="likeness">Likeness</label>
+		<input type="range" id="likeness" name="likeness" min="1" max="100" required>
+		<br>
+		
 		<button type="submit">submit</button>
 	</from>
 	<!-- the entire body must be written by student -->
